@@ -1,0 +1,34 @@
+.acceuilAdminContainer{
+   
+    padding: 10px;
+}
+.dataSection{
+    font-family: arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.dataSection h2{
+    text-align: center;
+    
+}
+table{
+    
+    border-collapse: collapse;
+    
+}
+.eachInfo th,td{
+    border: 1px solid #dddddd;
+    padding: 5px 10px;
+    cursor : pointer
+    
+}
+
+.green{
+    color: red;
+}
+
+.other{
+    color: #0180f3;
+}

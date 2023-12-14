@@ -1,0 +1,63 @@
+.validationFormContainer{
+    // background: cyan;
+    display: flex;
+    justify-content: center;
+
+    form{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    label {
+        font: {
+            size : 20px
+        }
+    }
+          
+    input{
+        width: 70%;
+        height: 40px;
+        padding: 5px;
+        border-radius: 10px;
+        border: solid 1px black;
+        font-size: 20px;
+        // margin : 10px 0;
+      }
+    
+   
+
+    .genre {
+    //   background-color: red;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        padding: 5px;
+        width: 50%;
+        margin: 0 0 10px 0 ;
+        input{
+            height : 20px;
+            width: 20%; 
+            
+            
+         }
+    }
+
+
+    button {
+        width: 150px;
+        height: 45px;
+        margin: 10px;
+        border: none;
+        background: #172554;
+        color: white;
+        border-radius: 10px;
+        font-size: 20px;
+        align-self: center;
+        cursor: pointer;
+      }
+}

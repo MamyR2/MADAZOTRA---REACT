@@ -1,0 +1,60 @@
+
+.ReseravationStep1Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.AllReservaitonDetails{
+    
+    padding: 10px;
+    display: flex;    
+    justify-content: space-around;
+}
+
+.CarDiplayer{
+    width: 80%;
+  
+}
+
+.BookingMoreInfo{
+    
+    width: 30%;
+    flex-direction: column;
+    color: black;
+    display: flex;
+    padding: 3px;
+    
+}
+
+.eachBookingInfo{
+    border: 1px grey solid;
+    padding: 5px;
+    border-radius: 5px;
+    height: 200px;
+    margin : 5px 0;
+    
+}
+
+.TipsItems{
+    border: 1px solid #b0f2b6;
+    background: #e1f9e1;
+    width: 40%;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    
+    border-radius: 5px;
+}
+
+.check{
+    border: 1px solid GREEN;
+    margin : 0 10px;
+    padding: 3px;
+    border-radius: 100%;
+    
+}
+
+.continuer{
+    margin: auto;
+
+}

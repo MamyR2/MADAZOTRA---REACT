@@ -1,0 +1,18 @@
+.availabilitySection{
+    display: flex; 
+    width: 100%;
+}
+
+.SimulationForm{
+    margin-left: 20px;
+    border: 1px solid black; 
+    width: 50%;
+    padding: 10px;
+   
+}
+
+.SimulationForm input {
+    padding: 5px ; 
+    width : 200px; 
+    margin : 10px 0; 
+}

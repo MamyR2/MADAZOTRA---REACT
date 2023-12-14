@@ -1,0 +1,33 @@
+/* Global Styles */
+.UpdaterContainer{
+
+    width: 100%;
+
+    
+    .Container {
+      /* background-color: pink; */
+      padding: 10px;
+    }
+    
+    .UpdaterSubmitbtn {
+      width: 150px;
+      height: 45px;
+      margin: 10px;
+      border: none;
+      background: #172554;
+      color: white;
+      border-radius: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    
+    input {
+      width: 70%;
+      height: 40px;
+      padding: 5px;
+      border-radius: 10px;
+      border: solid 1px black;
+      font-size: 20px;
+      margin : 10px 0;
+    }
+}

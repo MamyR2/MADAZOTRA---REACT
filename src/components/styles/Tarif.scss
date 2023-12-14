@@ -1,0 +1,138 @@
+.tarifContainer{
+    background-color: #F8F8FF;
+    padding: 20px;
+
+    ul{
+        list-style-type: none;
+    }
+    
+    
+    .QuoteHeader{
+        width: 100%;    
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    input {
+        width: 70%;
+        height: 40px;
+        padding: 5px;
+        border-radius: 10px;
+        border: solid 1px black;
+        font-size: 20px;
+        margin : 10px 0;
+      }
+    
+    .quoteForm{
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5px;
+        padding: 5px;
+        align-self: center;
+        width: 60%;
+        background-color: #FFFAFA;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .AvailableCarSection{
+        
+        overflow-x: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .carAvailable{
+        
+        padding: 20px;
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+        width: 300px;
+        height: 250px;
+    }
+    
+    .eachQuoteItems{
+        border: 1px black solid;
+        border-radius: 5px;
+        background-color: white;
+        height: 60px;
+        align-content: center;
+        padding: 10px;
+        margin: 5px;
+    }
+    .quoteValidation{
+        background: green;
+        font-weight: bold;
+        color: white;
+        font-size: 20px;
+        opacity: 0.8;
+        border: 1px green;
+    }
+    
+    .quoteValidation:hover{
+        opacity: 1;
+        cursor: pointer;
+    }
+    
+    
+}
+
+.displayCarSection{
+    border: 1px 	#F5F5F5 solid;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.availableCarInfo{
+    /* border: 1px black solid; */
+    padding: 10px;
+    width: 500px;
+    
+}
+
+.amenitiesCarList{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: space-between; */
+ 
+    
+}
+
+.amenitiesCarList li{
+    margin: 5px;
+}
+
+.availableCarButton{
+    background-color: green;
+    border: 1px solid green;
+    padding: 6px;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    left: 80%;
+    opacity: 0.7;
+    transition: all 1s;
+}
+
+.availableCarButton:hover{
+    cursor: pointer;
+    opacity: 1;
+    
+}
+
+.TotalCarPriceContainer{
+    
+    width: 40%;
+}
+
+.TotalCarPrice{
+    font-weight: bold;
+    font-size: 20px;
+}
